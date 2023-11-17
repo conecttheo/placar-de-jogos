@@ -39,9 +39,15 @@
     right: 10px;
   }
   
+  .input__jogador {
+    padding: 0.75rem;
+    margin: 2rem;
+  }
+
   table {
     border: 2px solid white;
     border-collapse: collapse;
+    margin: 2rem 5rem;
   }
   
   h1 {
@@ -56,7 +62,15 @@
   }
   
   button {
-    background-color: #002351;
+    background-color: #1a57a7;
     color: #f6f6f6;
+    margin: 0.5rem;
+  }
+
+  .botao__jogador {
+    background-color: #1a57a7;
+    color: #f6f6f6;
+    padding: 0.75rem;
+    margin: 2rem 3px;
   }
   

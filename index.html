@@ -10,10 +10,10 @@
 <body>
     <h1>Classificação Alura</h1>
   
-    <input type="text" id="campoNomeJogador" placeholder="digite o nome do jogador" />
-    <button onClick="criarJogador()">Adicionar novo jogador</button>
+    <input type="text" id="campoNomeJogador" placeholder="digite o nome do jogador" class="input__jogador"/>
+    <button onClick="criarJogador()" class="botao__jogador"><b>Adicionar novo jogador</b></button>
 
-    <table style="width:100%">
+    <table style="width:90%">
       <thead>
         <tr>
           <th>Nome</th>
@@ -28,7 +28,7 @@
        
       </tbody>
     </table>
-    <button onClick="apagarJogadores()">Apagar todos os jogadores</button>
+    <button onClick="apagarJogadores()" class="botao__jogador"><b>Apagar todos os jogadores</b></button>
   </body>
   <script src="script.js"></script>
   </html>
